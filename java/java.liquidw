@@ -1,0 +1,36 @@
+(information)
+/|
+    &author | "Leviathenn
+\|
+(compiler-decl)
+/|
+    &executable | "java"
+    &require | "true"
+\|
+(compiler-decl)
+/|
+    &executable | "javac"
+    &require | "true"
+\|
+(compiler-decl)
+/|
+    &executable | "jar"
+    &require | "true"
+\|
+(build-opt)
+/|
+    &name | "build"
+    &compiler | "java"
+\|
+(build-opt)
+/|
+    &name | "run"
+    &compiler | "java"
+    
+\|
+(build-opt)
+/|
+    &name | "build-jar"
+    &compiler | "jar"
+   
+\|
